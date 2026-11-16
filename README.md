@@ -26,8 +26,7 @@ nominal value. The starting state of charge can vary from pack to pack.
 
 Across six cases covering three starting SOC levels and two prior current
 directions, SOC RMSE ranged from **0.0121 to 0.1830 percentage points**
-against the simulated battery reference. The largest absolute SOC error
-was **0.6973 percentage points** over the evaluated intervals.
+against the simulated battery reference. 
 
 ## Model and battery pack
 
