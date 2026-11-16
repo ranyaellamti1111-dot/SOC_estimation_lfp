@@ -10,6 +10,18 @@ The charger inserts rest periods so the battery voltage can settle.
 The estimator tracks charge by integrating current and uses voltage
 feedback to correct the estimate.
 
+
+## Intended use
+
+This design is intended for factory charging stations that handle new
+battery packs of a known type. It can be adapted to other battery types
+by updating the battery model parameters and the charger’s current and
+voltage limits, then validating the configuration for that pack.
+
+The estimator assumes a fixed, known battery capacity. The intended use
+is therefore with new packs whose capacity is close to the configured
+nominal value. The starting state of charge can vary from pack to pack.
+
 ## Simulation results
 
 Across six cases covering three starting SOC levels and two prior current
