@@ -26,3 +26,7 @@ was **0.6973 percentage points** over the evaluated intervals.
 ![Simscape wiring](wirings.png)
 
 ![16-cell battery module](module.png)
+
+![SOC tracking comparison for the 40% starting SOC case after discharge](soc_tracking.png)
+
+*40% starting SOC after discharge. Blue: simulated battery SOC. Green: SG-DKF. Orange: reference EKF.*
